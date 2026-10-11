@@ -54,3 +54,4 @@ document.querySelector('#contact-form')?.addEventListener('submit', event => {
   const body = `Name: ${form.get('name')}\nEmail: ${form.get('email')}\n\n${form.get('message')}`;
   window.location.href = `mailto:sivanesangabilan2001@gmail.com?subject=${encodeURIComponent(form.get('subject'))}&body=${encodeURIComponent(body)}`;
 });
+
